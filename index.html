@@ -31,6 +31,7 @@ h3 {
   color: green;
   font-weight: bold;
   font-size: 35px;
+
 }
 h4 {
   text-align: ;
@@ -46,20 +47,49 @@ body {background-image: url(https://previews.123rf.com/images/annaleni/annaleni1
 iframe{margin-left: auto;margin-right: auto;display:block;}
 </style>
 <body>
+
 <h1>AVOTOAST</h1>
 <h2>Welcome to AvoToast</h2>
 <h3>We are a contemporary vegan restuarant, specialising in culinary fusion.
 
-<div class="container">
-  <div class="row">
-    <div class="col">
-    <h4><a href="Menu/index.html2">Menu</h4>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Book a Table</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Our Menu
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Lunch Menu</a>
+            <a class="dropdown-item" href="#">Dinner Menu</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Drinks Menu</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Locations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Recipes</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
-    <div class="col">
-      <h4>Online Booking</h4>
-    </div>
-  </div>
-</div>
+  </nav>
 
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
